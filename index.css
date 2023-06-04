@@ -23,6 +23,14 @@
     font-weight: 300;
 }
 
+.title {
+    font-size: 35px;
+    font-weight: 400;
+    text-shadow: 0 0 3px var(--gold-color);
+    text-align: center;
+    margin: 30px 0;
+}
+
 body {
     width: 100%;
     background-color: var(--dark-color);
@@ -111,3 +119,21 @@ header h1 {
     text-shadow: 0 0 5px var(--gold-color);
 }
 
+.downloadContainer {
+    margin: 30px 0;
+    display: flex;
+    gap: 2em;
+}
+
+.downloadContainer a {
+    padding: 10px 15px;
+    border: 2px solid var(--gold-color);
+    text-decoration: none;
+    color: var(--gold-color);
+    transition: all 300ms ease;
+}
+
+.downloadContainer a:hover {
+    background: var(--gold-color);   
+    color: var(--dark-color); 
+}
