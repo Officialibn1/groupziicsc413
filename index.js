@@ -1,6 +1,6 @@
 
 function toggleNav() {
-    var navbar = document.getElementById('mobileNavLinks');
+    var navbar = document.getElementById('mobileLinks');
 
     navbar.classList.toggle('show');
 }
