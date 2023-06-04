@@ -137,3 +137,14 @@ header h1 {
     background: var(--gold-color);   
     color: var(--dark-color); 
 }
+
+.mind {
+    width: 100%;
+    max-width: 450px;
+    margin: 60px auto 0;
+}
+
+.mind img {
+    width: 100%;
+    border: 2px solid var(--gold-color);
+}
