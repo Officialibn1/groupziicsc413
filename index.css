@@ -148,3 +148,22 @@ header h1 {
     width: 100%;
     border: 2px solid var(--gold-color);
 }
+
+.members ol {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.members ol li p {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    font-size: 20px;
+}
+
+.members ol li p span {
+    font-weight: 300;
+}
