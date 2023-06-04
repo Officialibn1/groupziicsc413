@@ -31,14 +31,15 @@ body {
 }
 
 nav {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px 10%;
-    border: 2px solid #fff;
+    background: var(--dark-color);
 }
 
 .logo {
@@ -86,5 +87,27 @@ nav .logoB {
 
 .navLinks ul li a:hover::before {
     width: 100%;
+}
+
+header {
+    margin-top: 115px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid var(--gold-color);
+}
+
+header span {
+    color: var(--gold-color);
+    /* font-size: px; */
+    margin: 0 30px;
+}
+
+header h1 {
+    font-size: 50px;
+    font-weight: 400;
+    text-shadow: 0 0 5px var(--gold-color);
 }
 
