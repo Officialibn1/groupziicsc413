@@ -21,6 +21,7 @@
 .lead {
     font-size: 20px;
     font-weight: 300;
+    text-align: justify;
 }
 
 .title {
@@ -119,6 +120,16 @@ header h1 {
     text-shadow: 0 0 5px var(--gold-color);
 }
 
+.wallpaper {
+    width: 100%;
+    max-width: 750px;
+    margin: 40px auto;
+}
+
+.wallpaper img {
+    width: 100%;
+}
+
 .downloadContainer {
     margin: 30px 0;
     display: flex;
@@ -140,12 +151,14 @@ header h1 {
 
 .mind {
     width: 100%;
-    max-width: 450px;
+    max-width: 750px;
+    min-height: fit-content;
     margin: 60px auto 0;
 }
 
 .mind img {
     width: 100%;
+    min-height: 350px;
     border: 2px solid var(--gold-color);
 }
 
